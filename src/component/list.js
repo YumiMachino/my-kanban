@@ -67,7 +67,6 @@ const List = ({ id, list }) => {
 
   const handleEdit = (e) => {
     const { value } = e.target;
-    console.log('edited:', value);
     setEditList(value);
   }
 
